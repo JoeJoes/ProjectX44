@@ -1,0 +1,12 @@
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\bin\Debug\EnaX.exe.config
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\bin\Debug\EnaX.exe
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\bin\Debug\EnaX.pdb
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\obj\Debug\EnaX.csprojResolveAssemblyReference.cache
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\obj\Debug\EnaX.exe
+c:\users\horak2\documents\visual studio 2013\Projects\EnaX\EnaX\obj\Debug\EnaX.pdb
+J:\C#\EnaX\EnaX\bin\Debug\EnaX.exe.config
+J:\C#\EnaX\EnaX\obj\Debug\EnaX.exe
+J:\C#\EnaX\EnaX\obj\Debug\EnaX.pdb
+J:\C#\EnaX\EnaX\bin\Debug\EnaX.exe
+J:\C#\EnaX\EnaX\bin\Debug\EnaX.pdb
+J:\C#\EnaX\EnaX\obj\Debug\EnaX.csprojResolveAssemblyReference.cache
