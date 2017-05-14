@@ -1,0 +1,5 @@
+H:\C#\BubbleSort\BubbleSort\bin\x64\Debug\BubbleSort.exe.config
+H:\C#\BubbleSort\BubbleSort\bin\x64\Debug\BubbleSort.exe
+H:\C#\BubbleSort\BubbleSort\bin\x64\Debug\BubbleSort.pdb
+H:\C#\BubbleSort\BubbleSort\obj\x64\Debug\BubbleSort.exe
+H:\C#\BubbleSort\BubbleSort\obj\x64\Debug\BubbleSort.pdb

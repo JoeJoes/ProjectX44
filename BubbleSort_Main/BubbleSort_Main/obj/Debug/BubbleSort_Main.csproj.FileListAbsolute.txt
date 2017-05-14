@@ -1,0 +1,36 @@
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe.config
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.pdb
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csprojResolveAssemblyReference.cache
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.Properties.Resources.resources
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csproj.GenerateResource.Cache
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.exe
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.pdb
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.mainForm.resources
+c:\users\tomas\documents\visual studio 2015\Projects\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.newTestForm.resources
+G:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe.config
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.exe
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.pdb
+G:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe
+G:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.pdb
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csprojResolveAssemblyReference.cache
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.mainForm.resources
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.newTestForm.resources
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.Properties.Resources.resources
+G:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csproj.GenerateResource.Cache
+F:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe.config
+F:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.exe
+F:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.pdb
+H:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe.config
+H:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.exe
+H:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.pdb
+J:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe.config
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.exe
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.pdb
+J:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.exe
+J:\C#\BubbleSort_Main\BubbleSort_Main\bin\Debug\BubbleSort_Main.pdb
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csprojResolveAssemblyReference.cache
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.mainForm.resources
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.newTestForm.resources
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.Properties.Resources.resources
+J:\C#\BubbleSort_Main\BubbleSort_Main\obj\Debug\BubbleSort_Main.csproj.GenerateResource.Cache

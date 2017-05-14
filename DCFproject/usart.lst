@@ -1,0 +1,191 @@
+   1               		.file	"usart.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	usart_setup
+  18               	usart_setup:
+  19               	.LFB3:
+  20               	.LM1:
+  21               	/* prologue: function */
+  22               	/* frame size = 0 */
+  23               	.LM2:
+  24 0000 88E1      		ldi r24,lo8(24)
+  25 0002 8093 9A00 		sts 154,r24
+  26               	.LM3:
+  27 0006 86E0      		ldi r24,lo8(6)
+  28 0008 8093 9D00 		sts 157,r24
+  29               	.LM4:
+  30 000c 8FE5      		ldi r24,lo8(95)
+  31 000e 8093 9900 		sts 153,r24
+  32               	.LM5:
+  33 0012 1092 9800 		sts 152,__zero_reg__
+  34               	.LM6:
+  35 0016 80E0      		ldi r24,lo8(gs(usart_sputchar))
+  36 0018 90E0      		ldi r25,hi8(gs(usart_sputchar))
+  37 001a 9093 0000 		sts (usart_io+8)+1,r25
+  38 001e 8093 0000 		sts usart_io+8,r24
+  39 0022 80E0      		ldi r24,lo8(gs(usart_sgetchar))
+  40 0024 90E0      		ldi r25,hi8(gs(usart_sgetchar))
+  41 0026 9093 0000 		sts (usart_io+10)+1,r25
+  42 002a 8093 0000 		sts usart_io+10,r24
+  43 002e 83E0      		ldi r24,lo8(3)
+  44 0030 8093 0000 		sts usart_io+3,r24
+  45 0034 1092 0000 		sts (usart_io+12)+1,__zero_reg__
+  46 0038 1092 0000 		sts usart_io+12,__zero_reg__
+  47               	.LM7:
+  48 003c 80E0      		ldi r24,lo8(usart_io)
+  49 003e 90E0      		ldi r25,hi8(usart_io)
+  50 0040 9093 0000 		sts (__iob)+1,r25
+  51 0044 8093 0000 		sts __iob,r24
+  52               	.LM8:
+  53 0048 9093 0000 		sts (__iob+2)+1,r25
+  54 004c 8093 0000 		sts __iob+2,r24
+  55               	/* epilogue start */
+  56               	.LM9:
+  57 0050 0895      		ret
+  58               	.LFE3:
+  60               	.global	usart_dataready
+  62               	usart_dataready:
+  63               	.LFB4:
+  64               	.LM10:
+  65               	/* prologue: function */
+  66               	/* frame size = 0 */
+  67               	.LM11:
+  68 0052 2091 9B00 		lds r18,155
+  69 0056 30E0      		ldi r19,lo8(0)
+  70 0058 2078      		andi r18,lo8(128)
+  71 005a 3070      		andi r19,hi8(128)
+  72               	.LM12:
+  73 005c C901      		movw r24,r18
+  74               	/* epilogue start */
+  75 005e 0895      		ret
+  76               	.LFE4:
+  78               	.global	usart_putchar
+  80               	usart_putchar:
+  81               	.LFB5:
+  82               	.LM13:
+  83               	.LVL0:
+  84               	/* prologue: function */
+  85               	/* frame size = 0 */
+  86 0060 982F      		mov r25,r24
+  87               	.LVL1:
+  88               	.L6:
+  89               	.LM14:
+  90 0062 8091 9B00 		lds r24,155
+  91 0066 85FF      		sbrs r24,5
+  92 0068 00C0      		rjmp .L6
+  93               	.LM15:
+  94 006a 9093 9C00 		sts 156,r25
+  95               	/* epilogue start */
+  96               	.LM16:
+  97 006e 0895      		ret
+  98               	.LFE5:
+ 100               	.global	usart_getchar
+ 102               	usart_getchar:
+ 103               	.LFB6:
+ 104               	.LM17:
+ 105               	/* prologue: function */
+ 106               	/* frame size = 0 */
+ 107               	.L10:
+ 108               	.LBB12:
+ 109               	.LBB13:
+ 110               	.LM18:
+ 111 0070 8091 9B00 		lds r24,155
+ 112               	.LBE13:
+ 113               	.LBE12:
+ 114               	.LM19:
+ 115 0074 87FF      		sbrs r24,7
+ 116 0076 00C0      		rjmp .L10
+ 117               	.LM20:
+ 118 0078 8091 9C00 		lds r24,156
+ 119               	/* epilogue start */
+ 120               	.LM21:
+ 121 007c 0895      		ret
+ 122               	.LFE6:
+ 124               	.global	usart_sputchar
+ 126               	usart_sputchar:
+ 127               	.LFB7:
+ 128               	.LM22:
+ 129               	.LVL2:
+ 130               	/* prologue: function */
+ 131               	/* frame size = 0 */
+ 132 007e 982F      		mov r25,r24
+ 133               	.LVL3:
+ 134               	.L14:
+ 135               	.LBB14:
+ 136               	.LBB15:
+ 137               	.LM23:
+ 138 0080 8091 9B00 		lds r24,155
+ 139 0084 85FF      		sbrs r24,5
+ 140 0086 00C0      		rjmp .L14
+ 141               	.LM24:
+ 142 0088 9093 9C00 		sts 156,r25
+ 143               	/* epilogue start */
+ 144               	.LBE15:
+ 145               	.LBE14:
+ 146               	.LM25:
+ 147 008c 0895      		ret
+ 148               	.LFE7:
+ 150               	.global	usart_sgetchar
+ 152               	usart_sgetchar:
+ 153               	.LFB8:
+ 154               	.LM26:
+ 155               	/* prologue: function */
+ 156               	/* frame size = 0 */
+ 157               	.LVL4:
+ 158               	.L18:
+ 159               	.LBB16:
+ 160               	.LBB17:
+ 161               	.LM27:
+ 162 008e 8091 9B00 		lds r24,155
+ 163               	.LVL5:
+ 164               	.LBE17:
+ 165               	.LBE16:
+ 166               	.LM28:
+ 167 0092 87FF      		sbrs r24,7
+ 168 0094 00C0      		rjmp .L18
+ 169               	.L21:
+ 170               	.LBB18:
+ 171               	.LBB19:
+ 172               	.LBB20:
+ 173               	.LBB21:
+ 174               	.LM29:
+ 175 0096 8091 9B00 		lds r24,155
+ 176               	.LBE21:
+ 177               	.LBE20:
+ 178               	.LM30:
+ 179 009a 87FF      		sbrs r24,7
+ 180 009c 00C0      		rjmp .L21
+ 181               	.LM31:
+ 182 009e 8091 9C00 		lds r24,156
+ 183               	/* epilogue start */
+ 184               	.LBE19:
+ 185               	.LBE18:
+ 186               	.LM32:
+ 187 00a2 0895      		ret
+ 188               	.LFE8:
+ 190               		.comm usart_io,14,1
+ 255               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 usart.c
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:2      *ABS*:0000003f __SREG__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:3      *ABS*:0000003e __SP_H__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:4      *ABS*:0000003d __SP_L__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:5      *ABS*:00000034 __CCP__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:18     .text:00000000 usart_setup
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:126    .text:0000007e usart_sputchar
+                            *COM*:0000000e usart_io
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:152    .text:0000008e usart_sgetchar
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:62     .text:00000052 usart_dataready
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:80     .text:00000060 usart_putchar
+C:\Users\orlovsky\AppData\Local\Temp/ccNYKxdo.s:102    .text:00000070 usart_getchar
+
+UNDEFINED SYMBOLS
+__iob
+__do_clear_bss
